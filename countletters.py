@@ -26,14 +26,18 @@ prices = { "banana": 4,
 # print prices.keys()
 # print prices.values()
 
-highest_price = 0
-highest_item = None
+# highest_price = 0
+# highest_item = None
 
-for item, price in prices.items():
-	if price > highest_price:
-		highest_price = price
-		highest_item = item
+# for item, price in prices.items():
+# 	if price > highest_price:
+# 		highest_price = price
+# 		highest_item = item
 
-print highest_item, "is the highest price at %s" % highest_price
+# print highest_item, "is the highest price at %s" % highest_price
 
 
+for key, values in prices.items():
+	print values 
+	print key
+	print key, " + ", values
