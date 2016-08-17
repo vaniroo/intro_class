@@ -33,3 +33,8 @@ items = ["item:apples,quantity:4,price:1.50\n", "item:pears,quantity:5,price:2.0
 
 items_divide = items[0].split(",")
 print items_divide
+itemss = items[0].split(":")
+print itemss
+more_items = itemss[2].split(",")
+print more_items
+#look at lecture and get rid of slash n and then make function to multiply the 4 and the 1.50 to get the total of bill, probably a for loop necessary
